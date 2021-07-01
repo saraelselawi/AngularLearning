@@ -2,8 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
-const AUTH_API = 'hhttps://60de1c82878c890017fa2d9e.mockapi.io';
-
+const AUTH_API = 'https://jsonplaceholder.typicode.com/todos/1';
 
 const httpOptions = {
   headers: new HttpHeaders({ 'Content-Type': 'application/json' })
